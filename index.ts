@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-const sourceUrl = "http://jsonplaceholder.typicode.com/todos/4";
+const sourceUrl = 'http://jsonplaceholder.typicode.com/todos/4';
 
 interface Todo {
   id: number;
@@ -21,6 +21,6 @@ const logTodo = (id: number, title: string, completed: boolean) => {
   console.log(`
         The Todo with ID: ${id}
         Has the title: ${title}
-        Is it finished? ${completed ? "yes" : "no"}
+        Is it finished? ${completed ? 'yes' : 'no'}
     `);
 };
