@@ -108,3 +108,4 @@ dist
 
 # Project exclude paths
 /index.js
+/package-lock.json
